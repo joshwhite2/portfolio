@@ -1,0 +1,208 @@
+
+body{
+    background-image: url("images/Spacebg.jpg") ;
+    
+    background-attachment:fixed;
+    font: 100 20px "Inter", sans-serif;
+    color:white;
+}
+
+.header{
+    height:30px;
+    width:auto;
+    margin: 6px;
+   
+}
+
+.linked,
+.linked * {
+  box-sizing: border-box;
+}
+
+.linked a{
+  color: #ffffff;
+  text-align: right;
+  font: 100 30px "Inter", sans-serif;
+  position: relative;
+  width: 290px;
+  height: 86px;
+  text-decoration: none;
+}
+
+.linked a:visited {
+    color: lightgrey;
+    text-decoration: none;
+}
+.contact-container{
+    
+    white-space: nowrap;
+}
+.contact-container h1,
+.contact-container img {
+
+    display: inline-block;
+    vertical-align: middle; /* Vertically align the elements */
+    margin-right: 10px; /* Add spacing between the header and image */
+}
+.card-container{
+    width:85%;
+    height: 400px;
+    padding:5px;
+    background-color:rgba(0, 0, 0, 0.139);
+    overflow: auto;
+    position: sticky;
+    margin-bottom:10px;
+
+}
+
+.project-card{
+  display: flex;
+  align-items: center;
+    padding: 5px;
+    margin:10px;
+    width:85%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.772);
+    color: white;
+    
+   
+    
+}
+
+.project-card a{
+    color:lightgoldenrodyellow;
+    float: bottom;
+}
+.project-card a:visited{
+    color:lightgoldenrodyellow
+}
+
+
+
+.project-card p {
+  
+    width: calc(100% - 350px); /* Adjust the width based on the image width */
+    margin: 5px; /* Add some spacing between the image and text */
+}
+
+.project-card img {
+    justify-content: left;
+    margin:5px;
+    width: auto;
+    height: 300px;
+   
+   
+}
+.text-container{
+    width: 450px;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+    
+    background-color: rgba(0, 0, 0, 0.237);
+    z-index: 999;
+    margin-left: 1250px;
+    position:fixed;
+    text-align: end;
+    border-radius: 10px;
+}
+.logo{
+    width: 200px;
+height: 700px;
+position: fixed;
+left: 1175px;
+}
+
+.contact-h2{
+    margin-right: 250px;
+}
+
+h1{
+    font: 100 64px "Inter", sans-serif;
+    color:white;
+}
+h2{
+    font: 100 36px "Inter", sans-serif;
+    color:white;
+   
+
+}
+p{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 200px;
+}
+
+header{
+    display:flex;  
+    justify-content: center; 
+}
+
+
+.radiotelescope{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+.socials{
+     margin-left: 1185px; 
+   position:fixed;
+
+}
+    .rectangle-1 {
+    background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+    width: 1380px;
+    height: 250px;
+    position: absolute;
+    margin-top: 450px;
+   }
+
+   .radio-tower{
+    display:flex;
+    margin-top: 110px;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+   }
+   .radio-tower img{
+    margin-left:40px;
+   }
+
+   .header-logo{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    width: 450px;
+    height:auto;
+    position:absolute;
+    align: center;
+   }
+
+   .radio-station{
+    display:flex;
+    position:absolute;
+    justify-content: center;
+    margin-top:370px
+   }
+   .player{
+    display:flex;
+    position:absolute;
+   }
+
+ 
+
+   
+
+
+.seen-div {
+    display: none;
+    position: absolute;
+    top: 50%; /* Position the div below the image */
+    left: 25%;
+  
+    padding: 10px;
+}
+  
+
